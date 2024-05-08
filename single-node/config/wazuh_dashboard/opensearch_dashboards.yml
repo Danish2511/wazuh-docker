@@ -10,3 +10,14 @@ server.ssl.key: "/usr/share/wazuh-dashboard/certs/wazuh-dashboard-key.pem"
 server.ssl.certificate: "/usr/share/wazuh-dashboard/certs/wazuh-dashboard.pem"
 opensearch.ssl.certificateAuthorities: ["/usr/share/wazuh-dashboard/certs/root-ca.pem"]
 uiSettings.overrides.defaultRoute: /app/wazuh
+
+opensearchDashboards.branding:
+  logo:
+    defaultUrl: https://raw.githubusercontent.com/vkraftproducts/wazuh/main/images/KraftLogo.jpg
+    darkModeUrl: https://raw.githubusercontent.com/vkraftproducts/wazuh/main/images/KraftLogo.jpg
+  loadingLogo:
+    defaultUrl: https://raw.githubusercontent.com/vkraftproducts/wazuh/11c59948d0dc41c545b69a068ffdbf7ff21bc8cf/images/loadingLOGO.svg
+    darkModeUrl: https://raw.githubusercontent.com/vkraftproducts/wazuh/11c59948d0dc41c545b69a068ffdbf7ff21bc8cf/images/loadingLOGO.svg
+  faviconUrl: https://raw.githubusercontent.com/vkraftproducts/wazuh/11c59948d0dc41c545b69a068ffdbf7ff21bc8cf/images/loadingLOGO.svg
+  applicationTitle: Kraft Software
+opensearch_security.basicauth.login.brandimage: https://raw.githubusercontent.com/vkraftproducts/wazuh/main/images/loginLOGO.png
